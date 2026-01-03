@@ -11,7 +11,7 @@ class Blockchain:
 
     def new_block(self, proof, preous_hash=None):
         block = 
-            'index': len(self)1,
+            'index': len(self)
             'timestamp': time(),
             'transactions': self.pending_transactions,
             'proof'p
