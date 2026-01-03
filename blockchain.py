@@ -33,7 +33,7 @@ print("Mining block 1...")
 my_coin.new_block(proof=12345)
 
 print("Mining block 2...")
-my_coin.new_block(proof=67890)
+my_coin.new_block(proof=6789
 
 print("\n--- Current Blockchain ---")
 for block in my_coin.chain:
