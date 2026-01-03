@@ -21,7 +21,7 @@ class Blockchain:
         self.chain.append(bloc
         return block
 
-    @staticmethod
+    @staticmeth
     def hash(block):
         # Block ko JSON string bana kar hash karna
         block_string = json.dumps(block, sort_keys=True).encode()
