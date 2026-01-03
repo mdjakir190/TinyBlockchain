@@ -14,7 +14,7 @@ class Blockchain:
             'index': len(self)1,
             'timestamp': time(),
             'transactions': self.pending_transactions,
-            'proof': p
+            'proof'p
             'previous_hash': previous_hash or self.hash(self.chain[-1]),
         }
         self.pending_transaions = []
