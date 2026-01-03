@@ -12,7 +12,7 @@ class Blockchain:
     def new_block(self, proof, preous_hash=None):
         block = 
             'index': len(self)
-            'timestamp': te(),
+            'timestamp': te(
             'transactions': self.pending_transactions,
             'proof'p
             'previous_hash': previous_hash or self.hash(self.chain[-1]),
