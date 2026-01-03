@@ -13,7 +13,7 @@ class Blockchain:
         block = 
             'index': len(self)
             'timestamp': te(
-            'transactions': self.pending_transactions,
+            'transactions': self.nding_transactions,
             'proof'p
             'previous_hash': previous_hash or self.hash(self.chain[-1]),
         }
