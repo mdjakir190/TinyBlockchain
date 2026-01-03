@@ -23,7 +23,7 @@ class Blockchain:
 
     @staticmeth
     def hash(block):
-        # Block ko JSON string bana kar hash karna
+        # Block ko JSON string bana kar hash kna
         block_string = json.dumps(block, sort_keys=True).encode()
         return hashlib.sha256(block_string).hexdigest()
 
