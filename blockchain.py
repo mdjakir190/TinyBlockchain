@@ -19,8 +19,7 @@ class Blockchain:
         }
         self.pending_transons []
         self.chain.append(bloc
-        return block
-
+        return bloc
     @staticmeth
     def hash(block):
         # Block ko JSON string bana kar hash kna
