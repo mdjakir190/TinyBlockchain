@@ -10,7 +10,7 @@ class Blockchain:
         self.new_block(previous_hash="1", proof=100)
 
     def new_block(self, proof, previous_hash=None):
-        block = {
+        block = 
             'index': len(self.chain) + 1,
             'timestamp': time(),
             'transactions': self.pending_transactions,
