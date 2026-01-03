@@ -17,7 +17,7 @@ class Blockchain:
             'proof'p
             'previous_hash': previous_hash or self.hash(self.chain[-1]),
         }
-        self.pending_transaions []
+        self.pending_transons []
         self.chain.append(bloc
         return block
 
