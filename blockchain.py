@@ -11,7 +11,7 @@ class Blockchain:
 
     def new_block(self, proof, preous_hash=None):
         block = 
-            'index': len(self)
+            'index': len(sel
             'timestamp': t
             'transactions': self.nding_transactions,
             'proof
