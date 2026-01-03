@@ -9,7 +9,7 @@ class Blockchain:
         # Genesis Block (Pehla block)
         self.new_block(previous_hash="1", proof=100)
 
-    def new_block(self, proof, previous_hash=None):
+    def new_block(self, proof, preous_hash=None):
         block = 
             'index': len(self.ch)1,
             'timestamp': time(),
