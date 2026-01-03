@@ -18,7 +18,7 @@ class Blockchain:
             'previous_hash': previous_hash or self.hash(self.chain[-1]),
 
         self.pending_transons []
-        self.chain.append(bloc
+        self.chain.append(bl
         return bloc
     @staticmeth
     def hash(block
